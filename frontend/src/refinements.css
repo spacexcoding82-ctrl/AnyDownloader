@@ -1,0 +1,47 @@
+/* Reference alignment and comfortable responsive controls. */
+.site-header { height: 60px; }
+.hero { padding-top: 60px; }
+.hero-subtitle { margin-top: 16px; }
+.download-form { margin-top: 25px; }
+.quality-panel { padding-top: 16px; padding-bottom: 12px; }
+.quality-heading { margin-bottom: 14px; }
+.quality-gear { width: 30px; height: 30px; }
+.quality-card { min-height: 68px; padding-top: 12px; padding-bottom: 12px; }
+.features { margin-top: 55px; }
+.feature-card { min-height: 158px; padding: 18px 16px; }
+.feature-icon { width: 44px; height: 44px; margin-bottom: 8px; }
+.feature-card p { font-size: 14px; }
+.platform-section { margin-top: 46px; }
+.platform-section .section-heading .eyebrow { display: none; }
+.platform-card { min-height: 94px; }
+.platform-card > span:last-child { font-size: 12px; }
+.steps { margin-top: 30px; }
+.step p { font-size: 14px; }
+.quality-placeholder { user-select: none; }
+@media (max-width: 680px) {
+  .header-cta { display: none; }
+  .mobile-menu { margin-left: auto; }
+  .site-header { height: 68px; }
+  .hero { padding-top: 42px; }
+  .hero-subtitle { max-width: 300px; margin: 18px auto 0; font-size: 14px; }
+  .features { margin-top: 35px; }
+  .feature-card { padding: 18px 10px; }
+  .feature-card p, .step p { font-size: 13px; }
+  .quality-heading h2 { font-size: 18px; }
+  .platform-card > span:last-child { font-size: 11px; }
+  .download-form input { font-size: 16px; }
+  .input-icon { min-width: 28px; }
+  .analyze-button { padding: 0 12px; }
+  .paste-button { display: none; }
+  .rights-checkbox { font-size: 13px; }
+  .footer button { min-height: 36px; }
+}
+@media (max-width: 360px) {
+  .header-cta { display: none; }
+  .mobile-menu { margin-left: auto; }
+  .quality-heading h2 { font-size: 16px; }
+  .quality-heading { gap: 6px; }
+  h1 { font-size: 35px; }
+  .quality-grid { gap: 5px; }
+  .quality-card strong { font-size: 14px; }
+}
